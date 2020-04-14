@@ -1,4 +1,7 @@
 const inquirer = require('inquirer');
+const api = require('./api');
+const generateMarkdown = require('./generateMarkdown')
+const fs = require('fs');
 
 const questions = [
   {
@@ -43,23 +46,22 @@ const questions = [
   }
 ]
 
-function writeToFile(fileName, data) {
+function writeToFile(data) {
+  fs.writeFile('readme.md', generateMarkdown(data),
+
+    (err) => {
+      if (err) {
+        throw err;
+      }
+    })
 }
 
 function init() {
   inquirer.prompt(questions)
-  .then(function (data){
-    console.log(data.username)
-    console.log(data.title)
-    console.log(data.badges)
-    console.log(data.description)
-    console.log(data.installation)
-    console.log(data.usage)
-    console.log(data.credits)
-    console.log(data.license)
-    console.log(data.contributing)
-    console.log(data.tests)
-  })
+    .then(function (data) {
+      api(data.username)
+      writeToFile(data)
+    })
 }
 
-init();
+init()

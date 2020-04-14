@@ -1,28 +1,18 @@
 const axios = require("axios");
 
-// const api = {
-//     getUser(username) {
-  
-//     }
-//   };
-  
-//   module.exports = api;
+  function api(username) {
+    const queryURL = `https://api.github.com/users/${username}`;
+    axios
+    .get(queryURL)
+    .then(response => {  
+      console.log(response.data.avatar_url)
+      console.log(response.data.email);
 
-  
-  const queryUrl = `https://api.github.com/users/${response.username}`; 
-  
-      axios
-          .get(queryUrl)
-          .then((res)=>{
-              console.log(res.data)
-              console.log(res.data.avatar_url)
-              console.log(res.data.email)
-              // picture = res.data.avatar_url;
-              // email = res.data.email
-          }),
-          
-          function (err) {
-            if (err) {
-              throw err;
-            }
-        };
+      return response
+    })
+
+    .catch(err => console.log("Please enter valid Githubg Username.", err))
+    return
+  };
+
+module.exports = api;
