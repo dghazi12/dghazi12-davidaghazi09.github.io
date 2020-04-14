@@ -2,7 +2,7 @@
     
   ## Questions
   
-  <img src="https://avatars0.githubusercontent.com/u/59675897?v=4" height="100" width="100">,
+  <img src="https://avatars0.githubusercontent.com/u/59675897?v=4" height="250" width="250">,
     
   # ,
 
