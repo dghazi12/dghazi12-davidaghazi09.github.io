@@ -1,43 +1,40 @@
 function generateMarkdown(data, response) {
-    return ` 
-    
-  ## Questions
-  
-  <img src="${response.data.avatar_url}" height="250" width="250">,
-    
-  # ${data.title},
+    return `   
+  # ${data.title}
 
-  ![](${data.badges}),
+  <img src="${data.badges}">
 
   ## Description 
 
-  ${data.description},
+  ${data.description}
 
   ## Installation
 
-  ${data.installation},
+  ${data.installation}
 
   ## Usage
 
-  ${data.usage},
+  ${data.usage}
 
   ## Credits
 
-  ${data.credits},
+  ${data.credits}
 
   ## License
 
-  ${data.license},
+  ${data.license}
 
   ## Contributing
 
-  ${data.contributing},
+  ${data.contributing}
 
   ## Tests
 
-  ${data.tests},
+  ${data.tests}
+
+  <img src="${response.data.avatar_url}" height="200" width="200">
   
   `;
-  }
-  
-  module.exports = generateMarkdown;
+}
+
+module.exports = generateMarkdown;
