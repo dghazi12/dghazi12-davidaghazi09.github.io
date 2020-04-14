@@ -1,36 +1,35 @@
-
-    
+   
   # Readme Generator
 
-  <img src="?style=plastic&logo=appveyor">
+  <img src="https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8">
 
   ## Description 
 
-  Brief description about the project.
+  Description
 
   ## Installation
 
-  Step by Step description to get the development
+  Step by Step
 
   ## Usage
 
-  Provde Instructions and examples for use.
+  Examples for use.
 
   ## Credits
 
-  List Collaborators with links to their GitHub
+  Collaborators with links to their GitHub profiles.
 
   ## License
 
-  Licenses you want to include.
+  Licenses to include.
 
   ## Contributing
 
-  Contributing guidelines go here. 
+  Contributing guidelines.
 
   ## Tests
 
-  Test for your application.
+  Tests for the application.
 
   <img src="https://avatars0.githubusercontent.com/u/59675897?v=4" height="200" width="200">
   
