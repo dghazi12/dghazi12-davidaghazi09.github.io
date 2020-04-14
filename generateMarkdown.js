@@ -1,5 +1,13 @@
 function generateMarkdown(data) {
-    return `# ${data.title},
+    return ` 
+    
+  ## Questions
+  
+  ![image](${data.avatar_url}),
+    
+  # ${data.title},
+
+  ![](${data.badges}),
 
   ## Description 
 
@@ -26,7 +34,7 @@ function generateMarkdown(data) {
   ${data.contributing},
 
   ## Tests
-  
+
   ${data.tests},
   
   `;

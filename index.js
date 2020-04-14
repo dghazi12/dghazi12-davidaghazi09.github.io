@@ -1,7 +1,10 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const axios = require("axios");
+
 const api = require('./api');
 const generateMarkdown = require('./generateMarkdown')
-const fs = require('fs');
+
 
 const questions = [
   {
@@ -13,7 +16,7 @@ const questions = [
     name: "title"
   },
   {
-    message: "What are some badges you would like to include?",
+    message: "What are some badges you would like to include? (enter link)",
     name: "badges",
   },
   {
@@ -47,7 +50,7 @@ const questions = [
 ]
 
 function writeToFile(data) {
-  fs.writeFile('readme.md', generateMarkdown(data),
+  fs.writeFile('readmegenerator.md', generateMarkdown(data),
 
     (err) => {
       if (err) {
@@ -60,6 +63,8 @@ function init() {
   inquirer.prompt(questions)
     .then(function (data) {
       api(data.username)
+      // console.log(data)
+      // console.log(response.data.avatar_url)
       writeToFile(data)
     })
 }
