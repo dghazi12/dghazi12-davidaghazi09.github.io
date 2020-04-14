@@ -3,7 +3,7 @@ function generateMarkdown(data, response) {
     
   ## Questions
   
-  <img src="${response.data.avatar_url}" height="24" width="48">,
+  <img src="${response.data.avatar_url}" height="100" width="100">,
     
   # ${data.title},
 
