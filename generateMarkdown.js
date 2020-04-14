@@ -1,9 +1,9 @@
-function generateMarkdown(data) {
+function generateMarkdown(data, response) {
     return ` 
     
   ## Questions
   
-  ![image](${data.avatar_url}),
+  ![image](${response.data.avatar_url} =200x200),
     
   # ${data.title},
 
@@ -41,4 +41,3 @@ function generateMarkdown(data) {
   }
   
   module.exports = generateMarkdown;
-  

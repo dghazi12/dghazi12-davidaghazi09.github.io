@@ -2,7 +2,7 @@ const axios = require("axios");
 
   function api(username) {
     const queryURL = `https://api.github.com/users/${username}`;
-    axios
+    const usernameGithub = axios
     .get(queryURL)
     .then(response => {  
       console.log(response.data)
@@ -14,7 +14,7 @@ const axios = require("axios");
 
     .catch(err => console.log(err))
 
-    return
+    return usernameGithub
   };
 
 module.exports = api;
