@@ -3,7 +3,7 @@ function generateMarkdown(data, response) {
     
   ## Questions
   
-  ![image](${response.data.avatar_url}/icon48),
+  ![image](${response.data.avatar_url}/icon20),
     
   # ${data.title},
 
