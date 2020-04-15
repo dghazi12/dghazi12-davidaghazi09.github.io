@@ -1,35 +1,35 @@
    
-  # Readme Generator
+  # Readme Generator Example
 
-  <img src="https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8">
+  <img src="https://img.shields.io/npm/v/node">
 
   ## Description 
 
-  Description
+  Enter brief description about the project here.
 
   ## Installation
 
-  Step by Step
+  Provide a step-by-step description on how to get the development environment running.
 
   ## Usage
 
-  Examples for use.
+  Provide instructions and examples for usage.
 
   ## Credits
 
-  Collaborators with links to their GitHub profiles.
+  List collaborators with links to their GitHub profiles here.
 
   ## License
 
-  Licenses to include.
+  Include any licenses deemed necessary.
 
   ## Contributing
 
-  Contributing guidelines.
+  Enter any contributing guidelines.
 
   ## Tests
 
-  Tests for the application.
+  Write any tests for your application.
 
   <img src="https://avatars0.githubusercontent.com/u/59675897?v=4" height="200" width="200">
   
