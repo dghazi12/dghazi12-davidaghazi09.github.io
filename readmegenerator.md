@@ -1,35 +1,35 @@
    
-  # test
+  # Readme Generator Example
 
-  <img src="test">
+  <img src="https://img.shields.io/npm/v/node">
 
   ## Description 
 
-  test
+  Breif description about your project.
 
   ## Installation
 
-  test
+  Step-by-step description on how to get the development environment running
 
   ## Usage
 
-  test
+  Please provide instructions and examples for use
 
   ## Credits
 
-  test
+  List your collaborators with links to their GitHub profiles.
 
   ## License
 
-  test
+  Licenses to include.
 
   ## Contributing
 
-  test
+  Contributing guidelines.
 
   ## Tests
 
-  test
+  Tests for your application.
 
   <img src="https://avatars0.githubusercontent.com/u/59675897?v=4" height="200" width="200">
   
