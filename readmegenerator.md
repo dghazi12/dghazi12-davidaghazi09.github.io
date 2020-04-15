@@ -5,31 +5,31 @@
 
   ## Description 
 
-  Enter brief description about the project here.
+  Brief description about project.
 
   ## Installation
 
-  Provide a step-by-step description on how to get the development environment running.
+  Step-by-step description on how to get the development environment running.
 
   ## Usage
 
-  Provide instructions and examples for usage.
+  Instructions and examples for use.
 
   ## Credits
 
-  List collaborators with links to their GitHub profiles here.
+  List of all collaborators with links to their GitHub profiles.
 
   ## License
 
-  Include any licenses deemed necessary.
+  Licenses to be added (link)
 
   ## Contributing
 
-  Enter any contributing guidelines.
+  Contributing guidelines.
 
   ## Tests
 
-  Write any tests for your application.
+  Tests for the application.
 
   <img src="https://avatars0.githubusercontent.com/u/59675897?v=4" height="200" width="200">
   
